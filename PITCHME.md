@@ -6,7 +6,6 @@ github "inloop/Styles"
 ---
 ## TextStyle
 
-
 * `UILabel`, `UITextField`, `UITextView`
 * Replacement for `NSAttributedString`
 * LOTS of properties to set
