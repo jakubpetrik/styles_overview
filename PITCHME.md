@@ -15,18 +15,12 @@ https://github.com/inloop/Styles
 ---
 ### What the Styles?!
 @ul[what-the-styles]
-- __declarative__: You describe the style, framework will do the rest
-- __type-safe__: Type system will help you describe your style
-- __plays nice with UIAppearance__: In fact its designed for it.
-- __usable as settable property__:  Not only works as UIAppearance proxy, but also as settable property
-- __supports UIControl states and UITextField editing__: You're gonna ❤︎ it.
-- __saves you from the `NSAttributedString`__: Just work with `String`s.
-- __text, color and layer properties__: Custom line height, letter spacing, corners? Me gusta.
-- __supports Styles updating__: Design base style for you app and update it on the fly as needed.
-- __Zeplin extension__: Just copy styles over to your project. Super easy. 
+- __declarative__
+- __type-safe__
+- __text, color and layer properties__
+- __supports UIControl states and UITextField editing__
+- __Zeplin extension__
 @ulend
-
-<sub><sub><a name="soso">1</a>: In most cases.</sub></sub>
 
 ## TextStyle
 
