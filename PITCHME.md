@@ -285,13 +285,14 @@ let title = TextStyle(
 ```
 ---
 ### TextEffect
-##### appending and removing
 ```swift
+// appending effect
 let h1: TextStyle = ...
 let title = h1.appending(
   logoBeforeCompanyName
 )
 
+// removing effect
 let justH1 = title.removing(
   logoBeforeCompanyName
 )
