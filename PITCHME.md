@@ -372,5 +372,6 @@ let roundRed = round.updating(
 )
 ```
 ---
+[layout: center]
 ### DEMO
 ---
