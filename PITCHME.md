@@ -102,14 +102,14 @@ case strikethrought(TextDecoration)
 ```
 ```swift
 struct TextDecoration {
-  enum Pattern: Int {
+  enum Pattern {
     case dot, dash, dashDot, dashDotDot
   }
 
   enum Style {
     case single, thick, double
   }
-  
+
   init(
     style: Style, 
     pattern: Pattern, 
