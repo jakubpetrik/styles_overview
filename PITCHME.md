@@ -12,11 +12,11 @@ github "inloop/Styles"
 
 ---
 
-### TextStyle.Properties
+### TextStyle.Property
 
 ```swift
 class TextStyle {
-  enum Properties {
+  enum Property {
     case font(UIFont)
     case foregroundColor(UIColor)
     case backgroundColor(UIColor)
@@ -32,7 +32,7 @@ class TextStyle {
 }
 ```
 ---
-### TextStyle.Properties.font
+### TextStyle.Property.font
 
 ```swift
 case font(UIFont)
@@ -45,7 +45,7 @@ let h1 = TextStyle(
 ```
 ---
 
-### TextStyle.Properties.foregroundColor
+### TextStyle.Property.foregroundColor
 ```swift
 case foregroundColor(UIColor)
 ```
@@ -55,7 +55,7 @@ let red = TextStyle(
 )
 ```
 ---
-### TextStyle.Properties.backgroundColor
+### TextStyle.Property.backgroundColor
 ```swift
 case backgroundColor(UIColor)
 ```
@@ -65,7 +65,7 @@ let highlight = TextStyle(
 )
 ```
 ---
-### TextStyle.Properties.paragraphStyle
+### TextStyle.Property.paragraphStyle
 ```swift
 case paragraphStyle([ParagraphStyle])
 ```
@@ -85,3 +85,16 @@ let centered = TextStyle(
   ])
 )
 ```
+---
+### TextStyle.Property.letterSpacing
+```swift
+case letterSpacing(CGFloat)
+```
+```swift
+let wide = TextStyle(
+  .letterSpacing(10.4)
+)
+```
+---
+### TextStyle.Property.strikethrought
+### TextStyle.Property.underline
