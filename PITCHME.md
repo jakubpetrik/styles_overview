@@ -201,4 +201,12 @@ struct Shadow {
   let shouldRasterizeLayer: Bool
   let rasterizationScale: CGFloat
 }
+
+let blackShadow = TextStyle(
+  .shadow(Shadow(
+    color: .black,
+    offset: UIOffset(horizontal: 10, vertical: 4),
+    radius: 1.04
+  ))
+)
 ```
