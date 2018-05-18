@@ -216,7 +216,8 @@ let blackShadow = TextStyle(
 ##### TextStyle.Property.writingDirectionOverrides
 ```swift
 case writingDirectionOverrides([WritingDirectionOverride])
-
+```
+```swift
 enum WritingDirectionOverride {
   case leftToRightEmbedding
   case rightToLeftEmbedding
