@@ -39,8 +39,28 @@ case font(UIFont)
 ```
 
 ```swift
-let h1 = TextStyle(
+TextStyle(
   .font(.preferredFont(forTextStyle: .largeTitle))
 )
 ```
 ---
+
+### TextStyle.Properties.foregroundColor
+```swift
+case foregroundColor(UIColor)
+```
+```swift
+TextStyle(
+  .foregroundColor(.red)
+)
+```
+---
+### TextStyle.Properties.backgroundColor
+```swift
+case backgroundColor(UIColor)
+```
+```swift
+TextStyle(
+  .backgroundColor(.yellow)
+)
+```
