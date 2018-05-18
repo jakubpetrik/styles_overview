@@ -232,3 +232,13 @@ let rtl2 = TextStyle(
   )
 )
 ```
+---
+##### TextStyle.Property.baselineOffset
+```swift
+case baselineOffset(Double)
+```
+```swift
+let body = TextStyle(
+  .baselineOffset(10.4)
+)
+```
