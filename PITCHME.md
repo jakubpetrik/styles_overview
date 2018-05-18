@@ -245,12 +245,12 @@ let body = TextStyle(
 ---
 ### TextEffects
 @ul
-- style, match pair
 - usefull for strings with multiple styles
 - style or image
 - only for UILabel and UITextView
 @ulend 
 ---
+
 ### TextEffect
 ```swift
 enum TextEffect {
