@@ -9,6 +9,6 @@
     text-transform: none;
 }
 
-.wts .reveal .slides section .fragment {
-  font-size: smaller;
+.wts {
+  font-size: smaller !important;
 }
