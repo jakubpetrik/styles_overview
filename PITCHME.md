@@ -15,23 +15,20 @@ github "inloop/Styles"
 ### TextStyle
 ### Properties
 
- - `.font(UIFont)`
-case foregroundColor(UIColor)
-        /// Specifies the text backgroundColor
+```swift
+class TextStyle {
+        enum Properties {
+        case font(UIFont)
+        case foregroundColor(UIColor)
         case backgroundColor(UIColor)
-        /// Spcifies the text `ParagraphStyle`
         case paragraphStyle([ParagraphStyle])
-        /// Specifies letter spacing
         case letterSpacing(CGFloat)
-        /// Specifies the `TextDecoration` of strikethrought
         case strikethrought(TextDecoration)
-        /// Specifies the `TextDecoration` of underline
         case underline(TextDecoration)
-        /// Specifies the obliqueness of the text
         case obliqueness(Double)
-        /// Specifies the text `Shadow`
         case shadow(Shadow)
-        /// Specifies array of `WritingDirectionOverride`
         case writingDirectionOverrides([WritingDirectionOverride])
-        /// Specifies baseline offset
         case baselineOffset(Double)
+}
+}
+```
