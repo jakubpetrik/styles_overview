@@ -21,7 +21,7 @@ https://github.com/inloop/Styles
 - __supports UIControl states and UITextField editing__
 - __Zeplin extension__
 @ulend
-
+---
 ## TextStyle
 
 * `UILabel`, `UITextField`, `UITextView`
