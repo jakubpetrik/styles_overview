@@ -33,7 +33,7 @@ https://github.com/inloop/Styles
 
 ## TextStyle
 
-* `UILabel`, `UITextField`, `UITextView`
+* `UILabel`, `UITextField`, `UITextView` or plain
 * Replacement for `NSAttributedString`
 * Properties and Effects
 
