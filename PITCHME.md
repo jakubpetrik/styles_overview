@@ -341,3 +341,16 @@ let h1: ViewStyle =
 let redBorder: ViewStyle = 
 let redTitle = h1 + redBorder
 ```
+
+---
+## Updating styles
+
+```swift
+let blueHeader = h1.updating(
+  .foregroundColor(.blue)
+)
+
+let roundRed = round.updating(
+  .tintColor(.red)
+)
+```
