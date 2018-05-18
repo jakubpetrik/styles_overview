@@ -3,13 +3,18 @@
 github "inloop/Styles"
 ```
 ---
-## TextStyle
+## `TextStyle`
 
 * `UILabel`, `UITextField`, `UITextView`
 * Replacement for `NSAttributedString`
 
 ---
 
-### TextStyle.Property
+### `TextStyle.Property`
 #### `.font`
 
+```swift
+let h1 = TextStyle(
+  .font(.prefferedFont(forTextStyle: .largeTitle))
+)
+```
