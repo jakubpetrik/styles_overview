@@ -200,7 +200,10 @@ struct Shadow {
   let shouldRasterizeLayer: Bool
   let rasterizationScale: CGFloat
 }
-
+```
+---
+### TextStyle.Property.shadow
+```swift
 let blackShadow = TextStyle(
   .shadow(Shadow(
     color: .black,
