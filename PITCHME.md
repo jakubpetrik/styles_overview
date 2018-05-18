@@ -12,8 +12,7 @@ github "inloop/Styles"
 
 ---
 
-### TextStyle
-### Properties
+### TextStyle.Properties
 
 ```swift
 class TextStyle {
