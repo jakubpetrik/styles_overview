@@ -315,14 +315,16 @@ protocol Match {
 ### ViewStyle.Property
 
 ```swift
-enum Property {
-  case backgroundColor(UIColor?)
-  case tintColor(UIColor?)
-  case borderColor(UIColor)
-  case borderWidth(CGFloat)
-  case cornerRadius(CGFloat)
-  case opacity(Float)
-  case shadow(Shadow)
+class ViewStyle {
+  enum Property {
+    case backgroundColor(UIColor?)
+    case tintColor(UIColor?)
+    case borderColor(UIColor)
+    case borderWidth(CGFloat)
+    case cornerRadius(CGFloat)
+    case opacity(Float)
+    case shadow(Shadow)
+  }
 }
 ```
 
