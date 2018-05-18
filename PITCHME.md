@@ -245,7 +245,7 @@ let body = TextStyle(
 ---
 ### TextEffects
 @ul
-- usefull for strings with multiple styles
+- useful for strings with multiple styles
 - style or image
 - only for UILabel and UITextView
 @ulend 
