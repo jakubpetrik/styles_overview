@@ -250,7 +250,7 @@ let body = TextStyle(
 - style or image
 - only for UILabel and UITextView
 @ulend 
-
+---
 ### TextEffect
 ```swift
 enum TextEffect {
