@@ -18,17 +18,17 @@ github "inloop/Styles"
 ```swift
 class TextStyle {
         enum Properties {
-        case font(UIFont)
-        case foregroundColor(UIColor)
-        case backgroundColor(UIColor)
-        case paragraphStyle([ParagraphStyle])
-        case letterSpacing(CGFloat)
-        case strikethrought(TextDecoration)
-        case underline(TextDecoration)
-        case obliqueness(Double)
-        case shadow(Shadow)
-        case writingDirectionOverrides([WritingDirectionOverride])
-        case baselineOffset(Double)
-}
+                case font(UIFont)
+                case foregroundColor(UIColor)
+                case backgroundColor(UIColor)
+                case paragraphStyle([ParagraphStyle])
+                case letterSpacing(CGFloat)
+                case strikethrought(TextDecoration)
+                case underline(TextDecoration)
+                case obliqueness(Double)
+                case shadow(Shadow)
+                case writingDirectionOverrides([WritingDirectionOverride])
+                case baselineOffset(Double)
+        }
 }
 ```
