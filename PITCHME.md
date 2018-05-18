@@ -326,11 +326,11 @@ let h1: TextStyle = ...
 
 myLabel.textStyle = h1
 
-// or
+or
 
 MyLabel.appearance().textStyle = h1
 
-// or
+or
 
 let myAttributedString = h1.apply(to: "INLOOPX")
 ```
