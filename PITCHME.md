@@ -319,6 +319,18 @@ protocol Match {
 @ulend
 
 ---
+## Usage
+
+```swift
+let h1: TextStyle = ...
+
+myLabel.textStyle = h1
+// or
+MyLabel.appearance().textStyle = h1
+// or
+let myAttributedString = h1.apply(to: "INLOOPX")
+```
+---
 ## ViewStyle
 
 - same principle as `TextStyle`
