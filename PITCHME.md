@@ -3,6 +3,7 @@
 https://github.com/inloop/Styles
 ---
 ## Agenda
+@ul
 * What the Styles?!
 * TextStyle
   * Properies
@@ -12,6 +13,7 @@ https://github.com/inloop/Styles
 * Combining
 * Demo
 * 🍻
+@ulend
 ---
 ### What the Styles?!
 @ul
