@@ -140,3 +140,29 @@ let important = TextStyle(
   ))
 )
 ```
+---
+### TextStyle.Property.obliqueness
+```swift
+case obliqueness(Double)
+```
+
+```swift
+let bold = TextStyle(
+  .obliqueness(10.4)
+)
+```
+---
+### TextStyle.Property.shadow
+```swift
+case shadow(Shadow)
+```
+```swift
+struct Shadow {
+  let color: UIColor
+  let opacity: Float
+  let offset: UIOffset
+  let radius: CGFloat
+  let shouldRasterizeLayer: Bool
+  let rasterizationScale: CGFloat
+}
+```
