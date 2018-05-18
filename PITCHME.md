@@ -102,7 +102,6 @@ let highlight = TextStyle(
 case paragraphStyle([ParagraphStyle])
 
 enum ParagraphStyle { 
-  // NSTextAlignment: 
   // .left, .right, .center, .justified, .natural
   case alignment(NSTextAlignment)
   // lineSpacing != lineHeight in Zepline
