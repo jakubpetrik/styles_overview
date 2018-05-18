@@ -104,3 +104,4 @@ case strikethrought(TextDecoration)
 struct TextDecoration {
   init(style: Style, pattern: Pattern, byWord: Bool = false, color: UIColor? = nil) { ... }
 }
+```
