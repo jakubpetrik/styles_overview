@@ -1,8 +1,6 @@
 @title[Styles]
 # Styles
-```
-github "inloop/Styles"
-```
+https://github.com/inloop/Styles
 ---
 ## TextStyle
 
