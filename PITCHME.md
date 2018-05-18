@@ -327,6 +327,7 @@ class ViewStyle {
   }
 }
 ```
+---
 ## Combining styles
 
 ```swift
