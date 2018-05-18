@@ -2,6 +2,16 @@
 # Styles
 https://github.com/inloop/Styles
 ---
+## Agenda
+* What the Styles?!
+* TextStyle
+  * Properies
+  * Effects
+* ViewStyle
+  * Properties
+* Bonus: SwitchStyle
+* Demo
+* 🍻
 ## TextStyle
 
 * `UILabel`, `UITextField`, `UITextView`
