@@ -284,6 +284,18 @@ let title = TextStyle(
 )
 ```
 ---
+### TextEffect
+```swift
+let h1: TextStyle = ...
+let title = h1.appending(
+  logoBeforeCompanyName
+)
+
+let justH1 = title.removing(
+  logoBeforeCompanyName
+)
+```
+---
 ### Match
 ```swift
 protocol Match {
