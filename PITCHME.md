@@ -1,4 +1,4 @@
-# Styles
+@title[Styles]
 ```
 github "inloop/Styles"
 ```
