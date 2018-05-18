@@ -371,6 +371,7 @@ let roundRed = round.updating(
   .tintColor(.red)
 )
 ```
+---
 ## Usage
 
 ```swift
