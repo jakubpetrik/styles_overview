@@ -117,4 +117,10 @@ struct TextDecoration {
 ---
 ### TextStyle.Property.strikethrought
 ```swift
+let deprecated = TextStyle(
+  .strikethrought(TextDecoration(
+    style: .thick,
+    pattern: .dash
+  ))
+)
 ```
