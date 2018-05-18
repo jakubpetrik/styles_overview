@@ -213,7 +213,7 @@ let blackShadow = TextStyle(
 )
 ```
 ---
-### TextStyle.Property.writingDirectionOverrides
+##### TextStyle.Property.writingDirectionOverrides
 ```swift
 case writingDirectionOverrides([WritingDirectionOverride])
 ```
