@@ -105,7 +105,7 @@ enum ParagraphStyle {
   // NSTextAlignment: 
   // .left, .right, .center, .justified, .natural
   case alignment(NSTextAlignment)
-  // lineSpacing != lineHeight v Zepline
+  // lineSpacing != lineHeight in Zepline
   case lineSpacing(CGFloat)
 }
 ```
