@@ -1,2 +1,4 @@
-# Štýlovanie so `Styles`
-
+# `Styles`
+```
+github "inloop/Styles"
+```
