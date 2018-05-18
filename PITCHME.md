@@ -64,3 +64,14 @@ TextStyle(
   .backgroundColor(.yellow)
 )
 ```
+---
+### TextStyle.Properties.paragraphStyle
+```swift
+case paragraphStyle([ParagraphStyle])
+```
+```swift
+public enum ParagraphStyle { 
+  case alignment(NSTextAlignment)
+  case lineSpacing(CGFloat)
+}
+```
