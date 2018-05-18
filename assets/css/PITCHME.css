@@ -9,6 +9,6 @@
     text-transform: none;
 }
 
-.what-the-styles {
+.what-the-styles > li {
   font-size: smaller !important;
 }
