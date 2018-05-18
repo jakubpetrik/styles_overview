@@ -14,7 +14,7 @@ https://github.com/inloop/Styles
 * 🍻
 ---
 ### What the Styles?!
-
+<p>
 - __declarative__: You describe the style, framework will do the rest
 - __type-safe__: Type system will help you describe your style
 - __plays nice with UIAppearance__: In fact its designed for it.
@@ -26,6 +26,7 @@ https://github.com/inloop/Styles
 - __Zeplin extension__: Just copy styles over to your project. Super easy. 
 
 <sub><sub><a name="soso">1</a>: In most cases.</sub></sub>
+</p>
 
 ## TextStyle
 
