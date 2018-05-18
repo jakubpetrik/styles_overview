@@ -39,7 +39,7 @@ case font(UIFont)
 ```
 
 ```swift
-TextStyle(
+let h1 = TextStyle(
   .font(.preferredFont(forTextStyle: .largeTitle))
 )
 ```
@@ -50,7 +50,7 @@ TextStyle(
 case foregroundColor(UIColor)
 ```
 ```swift
-TextStyle(
+let red = TextStyle(
   .foregroundColor(.red)
 )
 ```
@@ -60,7 +60,7 @@ TextStyle(
 case backgroundColor(UIColor)
 ```
 ```swift
-TextStyle(
+let highlight = TextStyle(
   .backgroundColor(.yellow)
 )
 ```
@@ -78,7 +78,7 @@ enum ParagraphStyle {
 }
 ```
 ```swift
-TextStyle(
+let centered = TextStyle(
   .paragraphStyle([
     .alignment(.center),
     .lineSpacing(1.5)
