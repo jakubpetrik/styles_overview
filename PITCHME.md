@@ -325,9 +325,13 @@ protocol Match {
 let h1: TextStyle = ...
 
 myLabel.textStyle = h1
+
 // or
+
 MyLabel.appearance().textStyle = h1
+
 // or
+
 let myAttributedString = h1.apply(to: "INLOOPX")
 ```
 ---
