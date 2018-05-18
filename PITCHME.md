@@ -97,6 +97,7 @@ let highlight = TextStyle(
 ```
 ---
 ### TextStyle.Property.paragraphStyle
+@ul
 ```swift
 case paragraphStyle([ParagraphStyle])
 ```
@@ -117,6 +118,7 @@ let centered = TextStyle(
   ])
 )
 ```
+@ulend
 ---
 ### TextStyle.Property.letterSpacing
 ```swift
