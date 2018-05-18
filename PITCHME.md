@@ -11,39 +11,26 @@ github "inloop/Styles"
 
 ---
 
-### `TextStyle.Property`
-#### `.font`
+### `TextStyle`
+### Properties
 
-```swift
-let h1 = TextStyle(
-  .font(.prefferedFont(forTextStyle: .largeTitle))
-)
-```
----
-
-### `TextStyle.Property`
-#### `.foregroundColor`
-
-```swift
-let red = TextStyle(
-  .foregroundColor(.red)
-)
-```
-
----
-
-### `TextStyle.Property`
-#### `.backgroundColor`
-
-```swift
-let highlight = TextStyle(
-  .backgroundColor(.yellow)
-)
-```
-
----
-
-### `TextStyle.Property`
-#### `.paragraphStyle`
-
----
+ - `.font(UIFont)`
+case foregroundColor(UIColor)
+        /// Specifies the text backgroundColor
+        case backgroundColor(UIColor)
+        /// Spcifies the text `ParagraphStyle`
+        case paragraphStyle([ParagraphStyle])
+        /// Specifies letter spacing
+        case letterSpacing(CGFloat)
+        /// Specifies the `TextDecoration` of strikethrought
+        case strikethrought(TextDecoration)
+        /// Specifies the `TextDecoration` of underline
+        case underline(TextDecoration)
+        /// Specifies the obliqueness of the text
+        case obliqueness(Double)
+        /// Specifies the text `Shadow`
+        case shadow(Shadow)
+        /// Specifies array of `WritingDirectionOverride`
+        case writingDirectionOverrides([WritingDirectionOverride])
+        /// Specifies baseline offset
+        case baselineOffset(Double)
