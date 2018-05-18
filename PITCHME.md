@@ -14,14 +14,15 @@ https://github.com/inloop/Styles
 * 🍻
 ---
 ### What the Styles?!
-@ul[what-the-styles]
+
 - easy styling
 - type-safe
 - declarative
 - easy to reason about
 - has Zeplin extension
-@ulend
 ---
+### What the Styles?!
+
 ## TextStyle
 
 * `UILabel`, `UITextField`, `UITextView`
