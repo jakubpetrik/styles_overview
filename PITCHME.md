@@ -14,13 +14,11 @@ github "inloop/Styles"
 ### `TextStyle.Property`
 #### `.font`
 
-
 ```swift
 let h1 = TextStyle(
   .font(.prefferedFont(forTextStyle: .largeTitle))
 )
 ```
-
 ----
 
 ### `TextStyle.Property`
