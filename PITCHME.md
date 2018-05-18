@@ -14,7 +14,7 @@ https://github.com/inloop/Styles
 * 🍻
 ---
 ### What the Styles?!
-@ul
+@ul[wts]
 - __declarative__: You describe the style, framework will do the rest
 - __type-safe__: Type system will help you describe your style
 - __plays nice with UIAppearance__: In fact its designed for it.
