@@ -260,7 +260,7 @@ enum TextEffect {
 ```
 ---
 ### TextEffect
-```
+```swift
 let blackBackground = TextStyle(
   .backgroundColor(.black)
 )
