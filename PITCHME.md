@@ -191,8 +191,7 @@ let bold = TextStyle(
 ### TextStyle.Property.shadow
 ```swift
 case shadow(Shadow)
-```
-```swift
+
 struct Shadow {
   let color: UIColor
   let opacity: Float
