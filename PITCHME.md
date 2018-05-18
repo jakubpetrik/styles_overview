@@ -9,10 +9,15 @@ https://github.com/inloop/Styles
   * Effects
 * ViewStyle
   * Properties
-* Bonus: SwitchStyle
 * Demo
+* Zeplin Extension 🤯
 * 🍻
 ---
+### What the Styles?!
+
+* abstrakcia nad konfiguraciou
+* 
+
 ## TextStyle
 
 * `UILabel`, `UITextField`, `UITextView`
