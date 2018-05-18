@@ -35,8 +35,8 @@ https://github.com/inloop/Styles
 
 ## TextStyle
 @ul
-* `UILabel`, `UITextField`, `UITextView` or plain
 * Replacement for `NSAttributedString`
+* `UILabel`, `UITextField`, `UITextView` or plain
 * Properties
 * Effects
 @ulend
