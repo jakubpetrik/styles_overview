@@ -285,6 +285,7 @@ let title = TextStyle(
 ```
 ---
 ### TextEffect
+##### appending and removing
 ```swift
 let h1: TextStyle = ...
 let title = h1.appending(
