@@ -118,7 +118,7 @@ let centered = TextStyle(
 ```
 @[1]
 @[3-10]
-@[12-17]
+@[111-17]
 
 ---
 ### TextStyle.Property.letterSpacing
