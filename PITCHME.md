@@ -100,3 +100,7 @@ let wide = TextStyle(
 ```swift
 case strikethrought(TextDecoration)
 ```
+```swift
+struct TextDecoration {
+  init(style: Style, pattern: Pattern, byWord: Bool = false, color: UIColor? = nil) { ... }
+}
