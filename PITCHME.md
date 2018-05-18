@@ -75,7 +75,7 @@ enum ParagraphStyle {
   case lineSpacing(CGFloat)
 }
 ```
-```
+```swift
 TextStyle(
   .paragraphStyle([
     .alignment(.center),
