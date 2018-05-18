@@ -97,4 +97,6 @@ let wide = TextStyle(
 ```
 ---
 ### TextStyle.Property.strikethrought
-### TextStyle.Property.underline
+```swift
+case strikethrought(TextDecoration)
+```
