@@ -29,6 +29,8 @@ https://github.com/inloop/Styles
 - SwitchStyle
 - more (soon)
 
+---
+
 ## TextStyle
 
 * `UILabel`, `UITextField`, `UITextView`
