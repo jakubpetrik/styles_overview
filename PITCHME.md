@@ -256,6 +256,9 @@ let body = TextStyle(
 enum TextEffect {
   case style(TextStyle, Match)
   case image(UIImage, TextStyle, Match)
+
+  init(style: TextStyle, matching match: Match) { ... }
+  init(image: UIImage, style: TextStyle = .empty, matching match: Match) { ... }
 }
 ```
 ---
