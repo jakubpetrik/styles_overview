@@ -24,7 +24,7 @@ https://github.com/inloop/Styles
 - has Zeplin extension
 @ulend
 ---
-### What the Styles?!
+### What makes Styles?!
 @ul
 - TextStyle
 - ViewStyle
@@ -63,6 +63,7 @@ class TextStyle {
 }
 ```
 ---
+@title[Font]
 ### TextStyle.Property.font
 
 ```swift
@@ -75,7 +76,7 @@ let h1 = TextStyle(
 )
 ```
 ---
-
+@title[Foreground Color]
 ### TextStyle.Property.foregroundColor
 ```swift
 case foregroundColor(UIColor)
@@ -86,6 +87,7 @@ let red = TextStyle(
 )
 ```
 ---
+@title[Background Color]
 ### TextStyle.Property.backgroundColor
 ```swift
 case backgroundColor(UIColor)
@@ -96,6 +98,7 @@ let highlight = TextStyle(
 )
 ```
 ---
+@title[ParagraphStyle]
 ### TextStyle.Property.paragraphStyle
 
 ```swift
@@ -120,6 +123,7 @@ let centered = TextStyle(
 @[10-17]
 
 ---
+@title[LetterSpacing]
 ### TextStyle.Property.letterSpacing
 ```swift
 case letterSpacing(CGFloat)
@@ -130,6 +134,7 @@ let wide = TextStyle(
 )
 ```
 ---
+@title[TextDecoration]
 ### TextStyle.Property.strikethrought
 ```swift
 case strikethrought(TextDecoration)
@@ -151,6 +156,7 @@ struct TextDecoration {
 }
 ```
 ---
+@title[Strikethrough]
 ### TextStyle.Property.strikethrought
 ```swift
 let deprecated = TextStyle(
@@ -161,6 +167,7 @@ let deprecated = TextStyle(
 )
 ```
 ---
+@title[Underline]
 ### TextStyle.Property.underline
 ```swift
 case underline(TextDecoration)
@@ -177,6 +184,7 @@ let important = TextStyle(
 )
 ```
 ---
+@title[Obliqueness]
 ### TextStyle.Property.obliqueness
 ```swift
 case obliqueness(Double)
@@ -188,6 +196,7 @@ let bold = TextStyle(
 )
 ```
 ---
+@title[Shadow]
 ### TextStyle.Property.shadow
 ```swift
 case shadow(Shadow)
@@ -202,6 +211,7 @@ struct Shadow {
 }
 ```
 ---
+@title[Shadow Example]
 ### TextStyle.Property.shadow
 ```swift
 let blackShadow = TextStyle(
@@ -213,6 +223,7 @@ let blackShadow = TextStyle(
 )
 ```
 ---
+@title[WritingDirectionOverride]
 ##### TextStyle.Property.writingDirectionOverrides
 ```swift
 case writingDirectionOverrides([WritingDirectionOverride])
@@ -233,6 +244,7 @@ let rtl2 = TextStyle(
 )
 ```
 ---
+@title[BaselineOffset]
 ### TextStyle.Property.baselineOffset
 ```swift
 case baselineOffset(Double)
@@ -243,6 +255,7 @@ let body = TextStyle(
 )
 ```
 ---
+@title[TextEffects Summary]
 ### TextEffects
 @ul
 - useful for strings with multiple styles
@@ -266,6 +279,7 @@ enum TextEffect {
 }
 ```
 ---
+@title[TextEffect Example]
 ### TextEffect
 ```swift
 let logo: UIImage = ...
@@ -284,6 +298,7 @@ let title = TextStyle(
 )
 ```
 ---
+@title[TextEffect Helpers]
 ### TextEffect
 ```swift
 // appending effect
@@ -305,6 +320,7 @@ protocol Match {
 }
 ```
 ---
+@title[Match Styles default]
 ### Match
 @ul
 - `First`
