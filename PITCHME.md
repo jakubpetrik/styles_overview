@@ -327,4 +327,16 @@ class ViewStyle {
   }
 }
 ```
+## Combining styles
 
+```swift
+let h1: TextStyle = 
+let blackShadow: TextStyle =
+let fancyTitle = h1 + blackShadow
+
+...
+
+let h1: ViewStyle =
+let redBorder: ViewStyle = 
+let redTitle = h1 + redBorder
+```
