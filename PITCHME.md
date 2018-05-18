@@ -38,7 +38,7 @@ https://github.com/inloop/Styles
 * Replacement for `NSAttributedString`
 * `UILabel`, `UITextField`, `UITextView` or plain
 * Properties
-* Effects
+* TextEffects
 @ulend
 
 ---
@@ -233,7 +233,7 @@ let rtl2 = TextStyle(
 )
 ```
 ---
-##### TextStyle.Property.baselineOffset
+### TextStyle.Property.baselineOffset
 ```swift
 case baselineOffset(Double)
 ```
@@ -241,4 +241,43 @@ case baselineOffset(Double)
 let body = TextStyle(
   .baselineOffset(10.4)
 )
+```
+---
+### TextEffects
+@ul
+- style, match pair
+- usefull for strings with multiple styles
+- style or image
+- only for UILabel and UITextView
+@ulend 
+
+### TextEffect
+```swift
+enum TextEffect {
+  case style(TextStyle, Match)
+  case image(UIImage, TextStyle, Match)
+}
+
+let blackBackground = TextStyle(
+  .backgroundColor(.black)
+)
+let logo: UIImage = ...
+let logoBeforeCompanyName = TextEffect(
+  image: logo, 
+  style: blackBackground, 
+  matching: First(occurenceOf: "INLOOPX")
+)
+let title = TextStyle(
+  .foregroundColor(.green),
+  effects([
+    logoBeforeCompanyName
+  ])
+)
+```
+---
+### Match
+```swift
+protocol Match {
+  func ranges(in base: String) -> [NSRange]
+}
 ```
