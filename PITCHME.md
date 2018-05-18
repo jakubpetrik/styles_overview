@@ -8,7 +8,7 @@ github "inloop/Styles"
 
 * `UILabel`, `UITextField`, `UITextView`
 * Replacement for `NSAttributedString`
-* LOTS of properties to set
+* Properties and Effects
 
 ---
 
@@ -31,3 +31,16 @@ class TextStyle {
   }
 }
 ```
+---
+### TextStyle.Properties.font
+
+```swift
+case font(UIFont)
+```
+
+```swift
+let h1 = TextStyle(
+  .font(.preferredFont(forTextStyle: .largeTitle))
+)
+```
+---
