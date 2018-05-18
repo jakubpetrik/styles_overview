@@ -4,15 +4,16 @@
 github "inloop/Styles"
 ```
 ---
-## `TextStyle`
+## TextStyle
 
 
 * `UILabel`, `UITextField`, `UITextView`
 * Replacement for `NSAttributedString`
+* LOTS of properties to set
 
 ---
 
-### `TextStyle`
+### TextStyle
 ### Properties
 
  - `.font(UIFont)`
