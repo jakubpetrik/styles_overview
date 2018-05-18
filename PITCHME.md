@@ -371,6 +371,18 @@ let roundRed = round.updating(
   .tintColor(.red)
 )
 ```
+## Usage
+
+```swift
+let round = ViewStyle(
+  .cornerRadius(10.4)
+)
+
+myView.viewStyle = round
+// or
+MyView.appearance().viewStyle = round
+```
+
 ---
 # DEMO
 ---
