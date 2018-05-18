@@ -2,4 +2,4 @@ theme: white
 highlight: xcode
 theme-override: assets/css/PITCHME.css
 layout: top-left
-transition: concave
+transition: zoom
