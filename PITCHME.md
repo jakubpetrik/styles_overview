@@ -47,3 +47,5 @@ let highlight = TextStyle(
 
 ### `TextStyle.Property`
 #### `.paragraphStyle`
+
+---
