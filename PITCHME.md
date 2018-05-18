@@ -97,11 +97,10 @@ let highlight = TextStyle(
 ```
 ---
 ### TextStyle.Property.paragraphStyle
-@ul
+
 ```swift
 case paragraphStyle([ParagraphStyle])
-```
-```swift
+
 enum ParagraphStyle { 
   // NSTextAlignment: 
   // .left, .right, .center, .justified, .natural
@@ -109,8 +108,7 @@ enum ParagraphStyle {
   // lineSpacing != lineHeight in Zepline
   case lineSpacing(CGFloat)
 }
-```
-```swift
+
 let centered = TextStyle(
   .paragraphStyle([
     .alignment(.center),
@@ -118,7 +116,10 @@ let centered = TextStyle(
   ])
 )
 ```
-@ulend
+@[1]
+@[4-10]
+@[12-17]
+
 ---
 ### TextStyle.Property.letterSpacing
 ```swift
