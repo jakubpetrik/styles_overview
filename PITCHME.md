@@ -15,11 +15,11 @@ https://github.com/inloop/Styles
 ---
 ### What the Styles?!
 @ul[what-the-styles]
-- __declarative__
-- __type-safe__
-- __text, color and layer properties__
-- __supports UIControl states and UITextField editing__
-- __Zeplin extension__
+- easy styling
+- type-safe
+- declarative
+- easy to reason about
+- has Zeplin extension
 @ulend
 ---
 ## TextStyle
