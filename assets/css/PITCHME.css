@@ -1,3 +1,7 @@
 .reveal pre {
     box-shadow: none;
 }
+
+.reveal h1 {
+    text-transform: none;
+}
