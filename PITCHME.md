@@ -71,6 +71,7 @@ case paragraphStyle([ParagraphStyle])
 ```
 ```swift
 enum ParagraphStyle { 
+  // NSTextAlignment: .left, .right, .center, .justified, .natural
   case alignment(NSTextAlignment)
   case lineSpacing(CGFloat)
 }
