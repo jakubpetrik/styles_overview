@@ -257,7 +257,10 @@ enum TextEffect {
   case style(TextStyle, Match)
   case image(UIImage, TextStyle, Match)
 }
-
+```
+---
+### TextEffect
+```
 let blackBackground = TextStyle(
   .backgroundColor(.black)
 )
