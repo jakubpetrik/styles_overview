@@ -358,7 +358,10 @@ let redTitle = h1 + redBorder
 
 ---
 ## Updating styles
-
+```swift
+func updating(_ properties: Property...) -> TextStyle
+func updating(_ properties: Property...) -> ViewStyle
+```
 ```swift
 let blueHeader = h1.updating(
   .foregroundColor(.blue)
