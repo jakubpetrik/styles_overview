@@ -70,8 +70,15 @@ TextStyle(
 case paragraphStyle([ParagraphStyle])
 ```
 ```swift
-public enum ParagraphStyle { 
+enum ParagraphStyle { 
   case alignment(NSTextAlignment)
   case lineSpacing(CGFloat)
 }
 ```
+```
+TextStyle(
+  .paragraphStyle([
+    .alignment(.center),
+    .lineSpacing(1.5)
+  ])
+)
