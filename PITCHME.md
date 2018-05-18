@@ -124,3 +124,19 @@ let deprecated = TextStyle(
   ))
 )
 ```
+---
+### TextStyle.Property.underline
+```swift
+case underline(TextDecoration)
+```
+
+```swift
+let important = TextStyle(
+  .underline(TextDecoration(
+    style: .single,
+    pattern: .dashDotDot,
+    byWord: true,
+    color: .red
+  ))
+)
+```
