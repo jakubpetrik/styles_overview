@@ -269,10 +269,12 @@ enum TextEffect {
 ### TextEffect
 ```swift
 let logo: UIImage = ...
+
 let logoBeforeCompanyName = TextEffect(
   image: logo, 
   matching: First(occurenceOf: "INLOOPX")
 )
+
 let title = TextStyle(
   .foregroundColor(.green),
   ...
