@@ -19,7 +19,7 @@ let h1 = TextStyle(
   .font(.prefferedFont(forTextStyle: .largeTitle))
 )
 ```
-----
+---
 
 ### `TextStyle.Property`
 #### `.foregroundColor`
