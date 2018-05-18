@@ -9,8 +9,8 @@ https://github.com/inloop/Styles
   * Effects
 * ViewStyle
   * Properties
+* Combining
 * Demo
-* Zeplin Extension 🤯
 * 🍻
 ---
 ### What the Styles?!
