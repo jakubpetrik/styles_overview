@@ -290,3 +290,19 @@ protocol Match {
   func ranges(in base: String) -> [NSRange]
 }
 ```
+---
+### Match
+@ul
+- `First`
+- `Regex` 
+  - `.wordMatches`
+  - `.wordStarts` 
+  - `.wordEnds` 
+  - `.lastWord`
+  - `.firstWord`
+- `Range`
+- `Block`
+@ulend
+
+---
+### 
