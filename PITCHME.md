@@ -305,4 +305,24 @@ protocol Match {
 @ulend
 
 ---
-### 
+## ViewStyle
+
+- same principle as `TextStyle`
+- for all `UIView`s
+- Properties
+
+---
+### ViewStyle.Property
+
+```swift
+enum Property {
+  case backgroundColor(UIColor?)
+  case tintColor(UIColor?)
+  case borderColor(UIColor)
+  case borderWidth(CGFloat)
+  case cornerRadius(CGFloat)
+  case opacity(Float)
+  case shadow(Shadow)
+}
+```
+
