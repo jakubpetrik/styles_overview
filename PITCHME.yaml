@@ -3,4 +3,4 @@ highlight: xcode
 theme-override: assets/css/PITCHME.css
 layout: top-left
 logo: assets/img/logo.png
-logo-position : top-left
+logo-position : bottom-right
