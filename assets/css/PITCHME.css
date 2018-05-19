@@ -12,6 +12,6 @@
 }
 
 #gp-logo img {
-  margin-right: 10pt;
-  display: inline-block;
+  padding-right: 10pt;
+  display: block;
 }
