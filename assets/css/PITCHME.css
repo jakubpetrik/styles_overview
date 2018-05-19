@@ -12,8 +12,6 @@
 }
 
 #gp-logo {
-  position: relative;
-  top: 10pt;
-  left: 10pt;
+  position: relative !important;
   z-index: inherit !important;
 }
