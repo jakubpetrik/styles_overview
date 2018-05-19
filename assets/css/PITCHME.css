@@ -15,4 +15,5 @@
   position: relative;
   top: 10pt;
   left: 10pt;
+  z-index: inherit !important;
 }
