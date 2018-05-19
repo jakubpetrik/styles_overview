@@ -10,3 +10,9 @@
 .reveal h6 {
     text-transform: none;
 }
+
+#gp-logo {
+  position: relative;
+  top: 10pt;
+  left: 10pt;
+}
