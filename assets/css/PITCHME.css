@@ -10,13 +10,3 @@
 .reveal h6 {
     text-transform: none;
 }
-
-#gp-logo {
-  top: 0 !important;
-  left: 0 !important;
-}
-
-#gp-logo img {
-  width: 213px;
-  height: 68px;
-}
