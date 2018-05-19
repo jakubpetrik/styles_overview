@@ -11,7 +11,7 @@
     text-transform: none;
 }
 
-#gp-logo img {
-  padding-right: 10pt;
+#gp-logo {
+  padding-right: 30pt !important;
   display: block;
 }
